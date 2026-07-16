@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: fact_sales
+    description: "Sales fact table at order-line grain."
+    columns:
+      - name: sales_key
+        description: "Surrogate key (order_id + product_id)."
+        tests: [not_null, unique]
+      - name: order_id
+        tests: [not_null]
+      - name: customer_id
+        description: "FK to dim_customers."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id
+      - name: product_id
+        description: "FK to dim_products."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_products')
+              field: product_id
+      - name: quantity
+        tests: [not_null]
+
+  - name: dim_customers
+    description: "Customer dimension, one row per customer."
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]
+      - name: customer_name
+        tests: [not_null]
+
+  - name: dim_products
+    description: "Product dimension, one row per product."
+    columns:
+      - name: product_id
+        tests: [not_null, unique]
+      - name: product_name
+        tests: [not_null]

@@ -1,0 +1,21 @@
+order_id,order_date,customer_id,customer_name,customer_city,product_id,product_name,category,unit_price,quantity
+1001,2026-01-04,C001,Amara Okafor,Lagos,P010,Basmati Rice 5kg,Grocery,12.50,2
+1001,2026-01-04,C001,Amara Okafor,Lagos,P021,Olive Oil 1L,Grocery,8.75,1
+1002,2026-01-05,C002,Bode Adeyemi,Abuja,P010,Basmati Rice 5kg,Grocery,12.50,1
+1002,2026-01-05,C002,Bode Adeyemi,Abuja,P033,Dish Soap,Household,3.20,3
+1003,2026-01-06,C003,Chidi Nwosu,Lagos,P045,Fresh Milk 1L,Dairy,1.90,6
+1004,2026-01-07,C001,Amara Okafor,Lagos,P045,Fresh Milk 1L,Dairy,1.90,4
+1004,2026-01-07,C001,Amara Okafor,Lagos,P052,Cheddar Cheese 250g,Dairy,4.60,2
+1005,2026-01-08,C004, Diana Mensah,Accra,P061,Toothpaste,Personal Care,2.40,2
+1006,2026-01-09,C005,Emeka Obi,Port Harcourt,P010,Basmati Rice 5kg,Grocery,12.50,3
+1006,2026-01-09,C005,Emeka Obi,Port Harcourt,P021,Olive Oil 1L,Grocery,8.75,2
+1007,2026-01-10,C002,Bode Adeyemi,Abuja,P070,Laundry Detergent 2kg,Household,9.99,1
+1008,2026-01-11,C006,Fatima Bello,Kano,P045,Fresh Milk 1L,Dairy,1.90,8
+1008,2026-01-11,C006,Fatima Bello,Kano,P052,Cheddar Cheese 250g,Dairy,4.60,1
+1009,2026-01-12,C003,Chidi Nwosu,Lagos,P033,Dish Soap,Household,3.20,2
+1010,2026-01-13,C007,Grace Adeleke,Ibadan,P061,Toothpaste,Personal Care,2.40,4
+1010,2026-01-13,C007,Grace Adeleke,Ibadan,P070,Laundry Detergent 2kg,Household,9.99,1
+1011,2026-01-14,C004,Diana Mensah,Accra,P010,Basmati Rice 5kg,Grocery,12.50,2
+1012,2026-01-15,C005,Emeka Obi,Port Harcourt,P052,Cheddar Cheese 250g,Dairy,4.60,3
+1013,2026-01-16,C008,Hassan Ali,Kano,P021,Olive Oil 1L,Grocery,8.75,1
+1013,2026-01-16,C008,Hassan Ali,Kano,P045,Fresh Milk 1L,Dairy,1.90,5

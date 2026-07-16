@@ -6,3 +6,9 @@ terraform/.terraform/
 terraform/*.tfstate*
 dbt_project/target/
 dbt_project/dbt_packages/
+.env
+emekamarkt/target/
+emekamarkt/dbt_packages/
+emekamarkt/logs/
+*.duckdb
+emekamarkt/.user.yml
